@@ -1,9 +1,8 @@
 
 # TODO: TEST! not working: dst and src argument mixed up and does not work dst
-# TODO: TEST! locate avprobe dynamicaly
+# DONE! TODO: TEST! locate avprobe dynamicaly
 # NEED to check if date is valid. See JPG
-# TODO: env screw up. "which" does not work under debug
-# TODO: logging facility
+# DONE! TODO: env screw up. "which" does not work under debug
 #
 #python3 do not execute script with arguments in shell
 # TODO: [-r] remove original files  
@@ -11,7 +10,7 @@
 # TODO: [-v] extra video files extension 
 # TODO: [-i] extra image files extensions comma separated
 # TODO: use video codec name for video folder
-
+# TODO: logging facility
 
 import exifread
 import os
@@ -216,4 +215,3 @@ if __name__ == '__main__':
     print('Skipped: '+str(skipped))
     print (skipext)
     print('Complete.')
-   
